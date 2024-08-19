@@ -56,7 +56,7 @@ try:
         # Listen to the keyboard for presses.
         keyboard_input = cv2.waitKey(1)
 
-        # 27 is the ASCII for the Esc key on your keyboard.
+        # Press ESC to exit
         if keyboard_input == 27:
             break
 
